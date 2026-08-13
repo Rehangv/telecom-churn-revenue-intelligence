@@ -2,7 +2,7 @@
 
 End-to-end churn analysis identifying revenue at risk and delivering data-backed retention recommendations, built with Python, MySQL, and Power BI.
 
-![Dashboard Preview](dashboard_screenshots/page_1_executive_churn_summary.png)
+**[View the full dashboard screenshots ↓](#7-dashboard-overview)** · 6,589 customers analyzed · $1.65M revenue at risk identified
 
 ---
 
@@ -62,14 +62,25 @@ Every number in the dashboard was cross-validated across Python, SQL, and Power 
 
 Interactive 4-page Power BI dashboard (`telecom_churn.pbix`):
 
-| Page | Focus |
-|---|---|
-| **Executive Churn Summary** | Headline KPIs, churn category breakdown, top churn reasons |
-| **Contract & Tenure Intelligence** | Contract type risk, tenure-based churn curve, offer performance, What-If revenue simulator |
-| **Product & Price Intelligence** | Internet type comparison, pricing tier risk, age-group risk |
-| **Retention Recommendations** | Priority action matrix, fixable vs. competitive revenue split, 5 data-backed recommendations |
+### Page 1 — Executive Churn Summary
+Headline KPIs, churn category breakdown, and top 5 churn reasons color-coded by whether they're fixable or competitor-driven.
 
-Screenshots of all 4 pages in `dashboard_screenshots/`.
+![Executive Churn Summary](dashboard_screenshots/page_1_executive_churn_summary.png)
+
+### Page 2 — Contract & Tenure Intelligence
+Contract type risk, tenure-based churn curve, offer performance ranking, and an interactive What-If revenue simulator.
+
+![Contract & Tenure Intelligence](dashboard_screenshots/page_2_contract_and_tenure_intelligence.png)
+
+### Page 3 — Product & Price Intelligence
+Internet type comparison, pricing tier risk (rate and volume), and age-group churn risk.
+
+![Product & Price Intelligence](dashboard_screenshots/page_3_product_and_price_intelligence.png)
+
+### Page 4 — Retention Recommendations
+Priority action matrix, fixable vs. competitive revenue split, and 5 data-backed recommendations written as an executive strategy memo.
+
+![Retention Recommendations](dashboard_screenshots/page_4_retention_recommendations.png)
 
 ---
 
